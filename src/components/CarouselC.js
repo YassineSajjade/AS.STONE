@@ -11,7 +11,7 @@ function CarouselC() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner" >
-                <div className="carousel-item ">
+                <div className="carousel-item active">
                     {/* <img src="https://img.freepik.com/photos-gratuite/nettoyage-centre-reparation-automobile-aide-vadrouilles-pour-faire-couler-eau-du-sol-epoxy-dans-centre-service-reparation-automobile_61243-462.jpg?size=626&ext=jpg" className="d-block w-100" alt="..."/> */}
                     <div className='overlay' id='overlay1'></div>
                     <div className="carousel-caption d-block">
@@ -20,7 +20,7 @@ function CarouselC() {
                     </div>
                     {/* </div> */}
                 </div>
-                <div className="carousel-item active">
+                <div className="carousel-item ">
                     {/* <img src="https://nobl-business.com/wp-content/uploads/2020/07/s%C3%A9curit%C3%A9-surveillance-et-gardiennage-agadir.jpg" className="d-block w-100" alt="..."/> */}
                     <div className='overlay' id='overlay2'></div>
                     <div className="carousel-caption d-block" id='carousel-caption2'>

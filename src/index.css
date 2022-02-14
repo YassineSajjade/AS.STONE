@@ -85,3 +85,19 @@ code {
     background-position: right;
   }
 }
+/* SectionAboutUs.js */
+#savoirPlus {
+  color: var(--main-color);
+  border-color: var(--main-color) ;
+}
+#savoirPlus:hover {
+  color: #fff;
+  background-color: var(--main-color) ;
+}
+#cardText{
+  color: var(--main-color);
+  text-decoration: none;
+}
+#cardText:hover{
+  opacity: 0.5;
+}
