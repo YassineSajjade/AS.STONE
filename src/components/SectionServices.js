@@ -7,6 +7,10 @@ function SectionServices() {
     return (
         <div className='container' style={{ padding: '20px', marginTop: '30px' }}>
 
+            <div style={{ textAlign: 'center', padding: '50px 0 50px' }}>
+                <h2 className='nosServices'><strong>NOS SERVICES</strong></h2>
+            </div>
+
             {/* Nettoyage */}
             <div className="card mb-3">
                 <div className="row g-0">
