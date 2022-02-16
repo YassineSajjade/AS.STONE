@@ -94,10 +94,14 @@ code {
   color: #fff;
   background-color: var(--main-color) ;
 }
-#cardText{
+/* SectionServices.js */
+.card-text {
+  color: #777;
+}
+#cardLink{
   color: var(--main-color);
   text-decoration: none;
 }
-#cardText:hover{
+#cardLink:hover{
   opacity: 0.5;
 }
