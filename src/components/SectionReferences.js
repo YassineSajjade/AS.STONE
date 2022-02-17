@@ -16,6 +16,32 @@ function SectionReferences() {
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -23,7 +49,7 @@ function SectionReferences() {
 
       <div className='row'>
 
-        <div className='col-lg-2' style={{alignSelf: 'center'}}>
+        <div className='col-sm-12 col-md-4 col-lg-2' style={{alignSelf: 'center'}}>
           <div style={{ backgroundColor: 'var(--main-color)', width: '5px', height: '45px', margin: '0 0 -47px'}}></div>
           <h3 style={{ 
             margin: '0 0 0 18px', 
@@ -36,7 +62,7 @@ function SectionReferences() {
           </h3>
         </div>
         
-        <div className='col-lg-10'>
+        <div className='col-sm-12 col-md-8 col-lg-10'>
 
           <Slider {...settings} className='slick'>
             <div>
