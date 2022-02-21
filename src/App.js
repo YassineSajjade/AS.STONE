@@ -4,6 +4,7 @@ import SectionAboutUs from "./components/SectionAboutUs";
 import SectionServices from "./components/SectionServices";
 import SectionReferences from "./components/SectionReferences";
 import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SectionServices/>
       <SectionReferences/>
       <Footer/>
+      <CopyRight/>
     </div>
   );
 }

@@ -51,36 +51,36 @@ function Footer() {
                         <h3 style={{ color: 'var(--main-color)', fontSize: '18px', fontWeight: '800', textTransform: 'uppercase' }}>MENU</h3>
                     </div>
                     <div>
-                        <ul class="list-group list-group-flush" style={{ listStyle: 'none', padding: '0', fontSize: '15px', lineHeight: '22px', fontWeight: '400' }}>
-                            <li class="list-group-item" style={{ paddingRight: '0', paddingLeft: '0', paddingTop: '0'}}>
+                        <ul className="list-group list-group-flush" style={{ listStyle: 'none', padding: '0', fontSize: '15px', lineHeight: '22px', fontWeight: '400' }}>
+                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0', paddingTop: '0'}}>
                                 <strong>
                                     <p style={{color: '#666', margin: '0',}}>
                                         <a style={{textDecoration: 'none', color: '#666'}} href='#'>Accueil</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li class="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
                                 <strong>
                                     <p style={{color: '#666', margin: '0',}}>
                                         <a style={{textDecoration: 'none', color: '#666'}} href='#'>AS.STONE Maroc</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li class="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
                                 <strong>
                                     <p style={{color: '#666', margin: '0',}}>
                                         <a style={{textDecoration: 'none', color: '#666'}} href='#'>Services</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li class="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
                                 <strong>
                                     <p style={{color: '#666', margin: '0',}}>
                                         <a style={{textDecoration: 'none', color: '#666'}} href='#'>Références</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li class="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
                                 <strong>
                                     <p style={{color: '#666', margin: '0',}}>
                                         <a style={{textDecoration: 'none', color: '#666'}} href='#'>Contact</a>
