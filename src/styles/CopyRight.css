@@ -1,0 +1,15 @@
+#copyRight {
+    margin-top: 80px;
+    background: #3d3c3c;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 11px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#copyRight #tdr {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}

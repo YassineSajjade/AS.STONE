@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
     return (
-        <div className='container' style={{ marginTop: '60px' }}>
+        <div className='container' id='footer'>
 
             <div className='row'>
 
-                <div className='col-lg-4' style={{ margin: '0 0 10px', padding: '0 15px' }}>
-                    <div style={{borderBottom: '3px solid var(--main-color)', marginBottom: '25px'}}>
-                        <h3 style={{ color: 'var(--main-color)', fontSize: '18px', fontWeight: '800', textTransform: 'uppercase' }}>
+                <div className='col-lg-4' >
+                    <div className='inline'>
+                        <h3 className='footerTitle'>
                             <strong>STE AS.STONE MAROC</strong>
                         </h3>
                     </div>
-                    <p style={{ fontSize: '15px', lineHeight: '22px', color: '#666', fontWeight: '400' }}>
+                    <p id='footerDesc'>
                         <strong>AS.STONE MAROC est une société multiservice implantée à casablanca maroc.<br />
                             AS.STONE est spécialisée dans le nettoyage général, l'entretien des espaces vert, et la sécurité.<br />
                             Notre société est au service des entreprises et particuliers.</strong>
@@ -20,24 +21,24 @@ function Footer() {
                 </div>
 
                 <div className='col-lg-4'>
-                    <div style={{borderBottom: '3px solid var(--main-color)', marginBottom: '25px'}}>
-                        <h3 style={{ color: 'var(--main-color)', fontSize: '18px', fontWeight: '800', textTransform: 'uppercase' }}>
+                    <div className='inline'>
+                        <h3 className='footerTitle'>
                             <strong>CONTACTEZ NOUS</strong>
                         </h3>
                     </div>
                     <div>
-                        <ul className='' style={{ listStyle: 'none', padding: '0', fontSize: '15px', lineHeight: '22px', color: '#666', fontWeight: '400' }}>
-                            <li className=''>
+                        <ul id='footerContact'>
+                            <li>
                                 <strong>
                                     <p>34 bloc 118 étage magazin, lalla meriem - Casablanca</p>
                                 </strong>
                             </li>
-                            <li className=''>
+                            <li>
                                 <strong>
                                     <p>Gsm: 06 61 59 32 55</p>
                                 </strong>
                             </li>
-                            <li className=''>
+                            <li>
                                 <strong>
                                     <p>Email: as.stone.maroc@gmail.com</p>
                                 </strong>
@@ -47,43 +48,43 @@ function Footer() {
                 </div>
 
                 <div className='col-lg-4'>
-                    <div style={{borderBottom: '3px solid var(--main-color)', marginBottom: '25px'}}>
-                        <h3 style={{ color: 'var(--main-color)', fontSize: '18px', fontWeight: '800', textTransform: 'uppercase' }}>MENU</h3>
+                    <div className='inline'>
+                        <h3 className='footerTitle'>MENU</h3>
                     </div>
                     <div>
-                        <ul className="list-group list-group-flush" style={{ listStyle: 'none', padding: '0', fontSize: '15px', lineHeight: '22px', fontWeight: '400' }}>
-                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0', paddingTop: '0'}}>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item" style={{ paddingTop: '0'}}>
                                 <strong>
-                                    <p style={{color: '#666', margin: '0',}}>
-                                        <a style={{textDecoration: 'none', color: '#666'}} href='#'>Accueil</a>
+                                    <p>
+                                        <a  href='#'>Accueil</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item">
                                 <strong>
-                                    <p style={{color: '#666', margin: '0',}}>
-                                        <a style={{textDecoration: 'none', color: '#666'}} href='#'>AS.STONE Maroc</a>
+                                    <p>
+                                        <a href='#'>AS.STONE Maroc</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item">
                                 <strong>
-                                    <p style={{color: '#666', margin: '0',}}>
-                                        <a style={{textDecoration: 'none', color: '#666'}} href='#'>Services</a>
+                                    <p>
+                                        <a href='#'>Services</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item">
                                 <strong>
-                                    <p style={{color: '#666', margin: '0',}}>
-                                        <a style={{textDecoration: 'none', color: '#666'}} href='#'>Références</a>
+                                    <p>
+                                        <a href='#'>Références</a>
                                     </p>
                                 </strong>
                             </li>
-                            <li className="list-group-item" style={{ paddingRight: '0', paddingLeft: '0'}}>
+                            <li className="list-group-item">
                                 <strong>
-                                    <p style={{color: '#666', margin: '0',}}>
-                                        <a style={{textDecoration: 'none', color: '#666'}} href='#'>Contact</a>
+                                    <p>
+                                        <a href='#'>Contact</a>
                                     </p>
                                 </strong>
                             </li>

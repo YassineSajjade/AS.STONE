@@ -1,0 +1,24 @@
+#sectionReferences {
+  padding: 20px;
+  margin-top: 80px
+}
+#sectionReferences .row #ourRef {
+  align-self: center;
+}
+#sectionReferences .row #ourRefBar {
+  background-color: var(--main-color);
+  width: 5px;
+  height: 45px;
+  margin: 0 0 -47px;
+}
+#sectionReferences .row #ourRef h3{
+  margin: 0 0 0 18px;
+  font-size: 24px; 
+  font-weight: 800; 
+  text-transform: uppercase;
+  line-height: 1em;
+  color: var(--main-color);
+}
+.slick div img {
+    padding: 5px;
+  }

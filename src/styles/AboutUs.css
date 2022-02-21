@@ -1,0 +1,26 @@
+#sectionAboutus {
+  padding: 20px;
+  margin-top: 80px;
+}
+.row #textTitle {
+  align-self: center;
+  text-align: center;
+}
+.row #textTitle span{
+  color: var(--main-color);
+}
+.row #textDesc .card{
+  border-left: 5px solid var(--main-color);
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  margin-top: 0;
+}
+.row #textDesc .card .card-body #savoirPlus {
+    color: var(--main-color);
+    border-color: var(--main-color) ;
+  }
+  .row #textDesc .card .card-body #savoirPlus:hover {
+    color: #fff;
+    background-color: var(--main-color) ;
+  }

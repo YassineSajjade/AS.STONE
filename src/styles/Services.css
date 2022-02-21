@@ -1,0 +1,34 @@
+#sectionServices {
+  padding: 20px;
+  margin-top: 80px;
+}
+#sectionServices #headTitle{
+  text-align: center;
+  padding: 50px 0 50px;
+}
+#nosServices {
+    color: var(--main-color);
+    margin: 0 36px 0 0;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: -1.08px;
+  }
+  .card {
+    margin-top: 30px;
+  }
+  .card-title span{
+    color: var(--main-color); 
+    font-weight: bold;
+  }
+  .card-text {
+    color: #777;
+  }
+  #cardLink{
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  #cardLink:hover{
+    opacity: 0.5;
+  }

@@ -1,0 +1,46 @@
+.carousel-item {
+    min-height: 535px !important;
+  }
+  #overlay1 {
+    background-image: url(../images/nettoyage/nettoyageCarousel.jpg);
+  }
+  #overlay2 {
+    background-image: url(../images/gardiennage/gardiennageCarousel.jpg);
+    background-position: center;
+  }
+  #overlay3 {
+    background-image: url(../images/jardinage/jardinageCarousel.jpg);
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+  }
+  .overlay::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+  }
+  .carousel-caption {
+    top: 250px;
+  }
+  .carousel-caption h1 {
+    font-size: 60px !important;
+  }
+  @media (max-width: 576px) { 
+    #carousel-caption2 h1{
+      font-size: 23px !important;
+    }
+    #overlay3{
+      background-position: right;
+    }
+  }

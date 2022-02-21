@@ -1,14 +1,15 @@
 import React from 'react';
+import '../styles/Services.css'
 import nettoyage1 from '../images/nettoyage/nettoyage1.jpg';
 import gardiennage1 from '../images/gardiennage/gardiennage1.jpg';
 import jardinage1 from '../images/jardinage/jardinage1.jpg';
 
 function SectionServices() {
     return (
-        <div className='container' style={{ padding: '20px', marginTop: '30px' }}>
+        <div className='container' id='sectionServices'>
 
-            <div style={{ textAlign: 'center', padding: '50px 0 50px' }}>
-                <h2 className='nosServices'><strong>NOS SERVICES</strong></h2>
+            <div id='headTitle' >
+                <h2 id='nosServices'><strong>NOS SERVICES</strong></h2>
             </div>
 
             {/* Nettoyage */}
@@ -21,7 +22,7 @@ function SectionServices() {
 
                     <div className="col-sm-12 col-md-8 col-lg-8">
                         <div className="card-body">
-                            <h5 className="card-title"><span style={{ color: 'var(--main-color)', fontWeight: 'bold' }}>AS.STONE</span> Nettoyage</h5>
+                            <h5 className="card-title"><span>AS.STONE</span> Nettoyage</h5>
                             <p className="card-text lh-base text-break">
                                 vous offre un service de nettoyage impeccable à tout moment avec de qualité supérieure et une satisfaction garantie
                                 L'entreprise s'engage à vous offrir un service de qualité à des prix très compétitifs...

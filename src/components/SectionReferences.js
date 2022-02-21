@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/References.css';
 import Slider from 'react-slick';
 import nettoyage1 from '../images/nettoyage/nettoyage1.jpg';
 import gardiennage1 from '../images/gardiennage/gardiennage1.jpg';
@@ -45,21 +46,13 @@ function SectionReferences() {
   };
 
   return (
-    <div className='container' style={{ padding: '20px', marginTop: '60px' }}>
+    <div className='container' id='sectionReferences' >
 
       <div className='row'>
 
-        <div className='col-sm-12 col-md-4 col-lg-2' style={{alignSelf: 'center'}}>
-          <div style={{ backgroundColor: 'var(--main-color)', width: '5px', height: '45px', margin: '0 0 -47px'}}></div>
-          <h3 style={{ 
-            margin: '0 0 0 18px', 
-            fontSize: '24px', 
-            fontWeight: '800', 
-            textTransform: 'uppercase', 
-            lineHeight: '1em',
-            color: 'var(--main-color)'}}>
-            Nos Références
-          </h3>
+        <div className='col-sm-12 col-md-4 col-lg-2' id='ourRef'>
+          <div id='ourRefBar'></div>
+          <h3>Nos Références</h3>
         </div>
         
         <div className='col-sm-12 col-md-8 col-lg-10' style={{marginTop: '30px'}}>
