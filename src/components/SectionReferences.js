@@ -62,7 +62,7 @@ function SectionReferences() {
           </h3>
         </div>
         
-        <div className='col-sm-12 col-md-8 col-lg-10'>
+        <div className='col-sm-12 col-md-8 col-lg-10' style={{marginTop: '30px'}}>
 
           <Slider {...settings} className='slick'>
             <div>
