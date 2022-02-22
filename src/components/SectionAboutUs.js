@@ -18,7 +18,7 @@ function SectionAboutUs() {
           <div className="card">
             <div className="card-body">
               <p className="card-text">est une société de Multiservice au maroc, Et spécialisée dans le nettoyage général, l'entretien des espaces vert, la sécurité et la maintenance de premier niveau</p>
-              <a href="#" className="btn btn-outline hvr-grow-shadow hvr-radial-out" id='savoirPlus' ><small>EN SAVOIR PLUS</small></a>
+              <a href="/aboutus" className="btn btn-outline hvr-grow-shadow hvr-radial-out" id='savoirPlus' ><small>EN SAVOIR PLUS</small></a>
             </div>
           </div>
         </div>

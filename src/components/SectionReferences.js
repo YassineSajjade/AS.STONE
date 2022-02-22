@@ -62,31 +62,31 @@ function SectionReferences() {
 
           <Slider {...settings} className='slick'>
             <div>
-              <img className="img-fluid rounded-start" src={nettoyage1}/>
+              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={gardiennage1}/>
+              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={jardinage1}/>
+              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={nettoyage1}/>
+              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={gardiennage1}/>
+              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={jardinage1}/>
+              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={nettoyage1}/>
+              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={gardiennage1}/>
+              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
             </div>
             <div>
-              <img className="img-fluid rounded-start" src={jardinage1}/>
+              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
             </div>
           </Slider>
 

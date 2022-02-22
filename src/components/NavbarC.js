@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Navbar.css';
 import { NavDropdown } from 'react-bootstrap';
-import logo from '../images/as.stone-logo.png';
+import logo from '../images/as.stone-logo2.png';
 
 
 
@@ -38,8 +38,8 @@ function NavbarC() {
     return (
             <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
                 <div className="container">
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="" width="150" height="90" />
+                    <a className="navbar-brand" href="/accueil">
+                        <img src={logo} alt="" width="90" height="90" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -47,10 +47,10 @@ function NavbarC() {
                     <div className="collapse navbar-collapse" id="navbarContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+                                <a className="nav-link active" aria-current="page" href="/accueil">Accueil</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Qui somme nous</a>
+                                <a className="nav-link active" aria-current="page" href="/aboutus">Qui somme nous</a>
                             </li>
                             <NavDropdown title="Services" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Nettoyage</NavDropdown.Item>
@@ -58,10 +58,10 @@ function NavbarC() {
                                 <NavDropdown.Item href="#action/3.3">Interim</NavDropdown.Item>
                             </NavDropdown>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Reference</a>
+                                <a className="nav-link active" aria-current="page" href="/references">Reference</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Contact</a>
+                                <a className="nav-link active" aria-current="page" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>

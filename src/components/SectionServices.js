@@ -31,7 +31,7 @@ function SectionServices() {
                                 vous offre un service de nettoyage impeccable à tout moment avec de qualité supérieure et une satisfaction garantie
                                 L'entreprise s'engage à vous offrir un service de qualité à des prix très compétitifs...
                             </p>
-                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='/services/nettoyage'>EN SAVOIR +</a>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ function SectionServices() {
                             <p className="card-text lh-base text-break">
                             Nos sommes particulièrement vigilants à rendre vos biens moins vulnérables. Parce que la sécurité est avant tout une affaire de vigilance humaine...
                             </p>
-                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='/services/gardiennage'>EN SAVOIR +</a>
                         </div>
                     </div>
 
@@ -80,7 +80,7 @@ function SectionServices() {
                             et espaces verts à casablanca et partout au maroc afin de répondre aux besoins des particuliers, 
                             des syndics de copropriété et des entreprises...
                             </p>
-                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='/services/jardinage'>EN SAVOIR +</a>
                         </div>
                     </div>
 

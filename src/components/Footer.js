@@ -56,35 +56,35 @@ function Footer() {
                             <li className="list-group-item" style={{ paddingTop: '0'}}>
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop'  href='#'>Accueil</a>
+                                        <a className='hvr-pop'  href='/accuel'>Accueil</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='#'>AS.STONE Maroc</a>
+                                        <a className='hvr-pop' href='/aboutus'>AS.STONE Maroc</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='#'>Services</a>
+                                        <a className='hvr-pop' href='/services'>Services</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='#'>Références</a>
+                                        <a className='hvr-pop' href='/references'>Références</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='#'>Contact</a>
+                                        <a className='hvr-pop' href='/contact'>Contact</a>
                                     </p>
                                 </strong>
                             </li>
