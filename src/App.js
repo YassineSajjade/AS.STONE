@@ -5,6 +5,7 @@ import SectionServices from "./components/SectionServices";
 import SectionReferences from "./components/SectionReferences";
 import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
+import 'hover.css/css/hover-min.css';
 
 function App() {
   return (

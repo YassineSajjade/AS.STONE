@@ -11,12 +11,12 @@ function NavbarC() {
 
     //Variable for fix the navbar at top
     const active = scroll ? "fixed-top " : "";
-    const shadow = scroll ? " 0px 0px 5px 0px #adb5bd " : "";
+    const shadow = scroll ? " 0 5px 8px 0 rgb(0 0 0 / 10%) " : "";
 
     //Function to handle scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 70) {
+        if (offset >= 0) {
             setScroll(true);
             console.log('true ' + offset);
         } else {
@@ -36,7 +36,7 @@ function NavbarC() {
 
 
     return (
-            <nav className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
+            <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
                 <div className="container">
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt="" width="150" height="90" />
@@ -66,7 +66,7 @@ function NavbarC() {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
 
     );
 }

@@ -56,35 +56,35 @@ function Footer() {
                             <li className="list-group-item" style={{ paddingTop: '0'}}>
                                 <strong>
                                     <p>
-                                        <a  href='#'>Accueil</a>
+                                        <a className='hvr-pop'  href='#'>Accueil</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a href='#'>AS.STONE Maroc</a>
+                                        <a className='hvr-pop' href='#'>AS.STONE Maroc</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a href='#'>Services</a>
+                                        <a className='hvr-pop' href='#'>Services</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a href='#'>Références</a>
+                                        <a className='hvr-pop' href='#'>Références</a>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a href='#'>Contact</a>
+                                        <a className='hvr-pop' href='#'>Contact</a>
                                     </p>
                                 </strong>
                             </li>

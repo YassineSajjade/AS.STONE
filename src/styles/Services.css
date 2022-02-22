@@ -15,8 +15,12 @@
     line-height: 44px;
     letter-spacing: -1.08px;
   }
-  .card {
+  #sectionServices .card {
     margin-top: 30px;
+  }
+  #sectionServices .card:hover {
+    box-shadow: 5px -5px 20px #cfcccc;
+    transition: all .5s;
   }
   .card-title span{
     color: var(--main-color); 
@@ -25,10 +29,15 @@
   .card-text {
     color: #777;
   }
-  #cardLink{
+  .cardLink{
     color: var(--main-color);
     text-decoration: none;
+    padding: 10px;
   }
-  #cardLink:hover{
-    opacity: 0.5;
+  .cardLink:hover{
+    color: #fff;
   }
+.hvr-sweep-to-bottom::before {
+  background: var(--main-color) !important;
+  border-radius: 5px !important;
+}

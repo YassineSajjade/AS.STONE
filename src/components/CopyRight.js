@@ -5,7 +5,7 @@ function CopyRight() {
   return (
     <div id='copyRight'>
         <div className='container'>
-            <div id='tdr'>
+            <div id='tdr' className='hvr-pop'>
                 ©.Tous droits réservés 2022 | as-stone.ma
             </div>
         </div>

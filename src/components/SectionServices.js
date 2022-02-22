@@ -3,16 +3,20 @@ import '../styles/Services.css'
 import nettoyage1 from '../images/nettoyage/nettoyage1.jpg';
 import gardiennage1 from '../images/gardiennage/gardiennage1.jpg';
 import jardinage1 from '../images/jardinage/jardinage1.jpg';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function SectionServices() {
     return (
         <div className='container' id='sectionServices'>
 
             <div id='headTitle' >
+            <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} delay={0.5}>
                 <h2 id='nosServices'><strong>NOS SERVICES</strong></h2>
+                </ScrollAnimation>
             </div>
 
             {/* Nettoyage */}
+            <ScrollAnimation animateIn='animate__fadeInRight' animateOnce={true} duration={1} >
             <div className="card mb-3">
                 <div className="row g-0">
 
@@ -27,15 +31,16 @@ function SectionServices() {
                                 vous offre un service de nettoyage impeccable à tout moment avec de qualité supérieure et une satisfaction garantie
                                 L'entreprise s'engage à vous offrir un service de qualité à des prix très compétitifs...
                             </p>
-                            <a id='cardLink' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
                         </div>
                     </div>
 
-
                 </div>
             </div>
+            </ScrollAnimation>
 
             {/* Gardiennage */}
+            <ScrollAnimation animateIn='animate__slideInLeft' animateOnce={true} duration={1}>
             <div className="card mb-3">
                 <div className="row g-0">
 
@@ -49,15 +54,17 @@ function SectionServices() {
                             <p className="card-text lh-base text-break">
                             Nos sommes particulièrement vigilants à rendre vos biens moins vulnérables. Parce que la sécurité est avant tout une affaire de vigilance humaine...
                             </p>
-                            <a id='cardLink' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
                         </div>
                     </div>
 
 
                 </div>
             </div>
+            </ScrollAnimation>
 
             {/* Jardinage */}
+            <ScrollAnimation animateIn='animate__slideInRight'  animateOnce={true} duration={1}>
             <div className="card mb-3">
                 <div className="row g-0">
 
@@ -73,15 +80,17 @@ function SectionServices() {
                             et espaces verts à casablanca et partout au maroc afin de répondre aux besoins des particuliers, 
                             des syndics de copropriété et des entreprises...
                             </p>
-                            <a id='cardLink' href='#'>EN SAVOIR +</a>
+                            <a className='cardLink hvr-sweep-to-bottom' href='#'>EN SAVOIR +</a>
                         </div>
                     </div>
 
 
                 </div>
             </div>
+            </ScrollAnimation>
 
         </div>
+
     )
 }
 
