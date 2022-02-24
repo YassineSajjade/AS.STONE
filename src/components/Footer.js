@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 
 function Footer() {
@@ -56,35 +57,35 @@ function Footer() {
                             <li className="list-group-item" style={{ paddingTop: '0'}}>
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop'  href='/accuel'>Accueil</a>
+                                        <Link className='hvr-pop'  to='/'>Accueil</Link>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='/aboutus'>AS.STONE Maroc</a>
+                                        <Link className='hvr-pop' to='/aboutus'>AS.STONE Maroc</Link>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='/services'>Services</a>
+                                        <Link className='hvr-pop' to='/services'>Services</Link>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='/references'>Références</a>
+                                        <Link className='hvr-pop' to='/references'>Références</Link>
                                     </p>
                                 </strong>
                             </li>
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <a className='hvr-pop' href='/contact'>Contact</a>
+                                        <Link className='hvr-pop' to='/contact'>Contact</Link>
                                     </p>
                                 </strong>
                             </li>

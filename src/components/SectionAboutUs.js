@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import '../styles/AboutUs.css';
+import {Link} from 'react-router-dom';
 
 function SectionAboutUs() {
   return (
@@ -18,7 +19,7 @@ function SectionAboutUs() {
           <div className="card">
             <div className="card-body">
               <p className="card-text">est une société de Multiservice au maroc, Et spécialisée dans le nettoyage général, l'entretien des espaces vert, la sécurité et la maintenance de premier niveau</p>
-              <a href="/aboutus" className="btn btn-outline hvr-grow-shadow hvr-radial-out" id='savoirPlus' ><small>EN SAVOIR PLUS</small></a>
+              <Link to="/aboutus" className="btn btn-outline hvr-grow-shadow hvr-radial-out" id='savoirPlus' ><small>EN SAVOIR PLUS</small></Link>
             </div>
           </div>
         </div>

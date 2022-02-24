@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Navbar.css';
-import { NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../images/as.stone-logo2.png';
 
 
@@ -36,37 +36,36 @@ function NavbarC() {
 
 
     return (
-            <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
-                <div className="container">
-                    <a className="navbar-brand" href="/accueil">
-                        <img src={logo} alt="" width="90" height="90" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/accueil">Accueil</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/aboutus">Qui somme nous</a>
-                            </li>
-                            <NavDropdown title="Services" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Nettoyage</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Gardiennage</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Interim</NavDropdown.Item>
-                            </NavDropdown>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/references">Reference</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+        <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
+            <div className="container">
+                <Link className="navbar-brand" to="/">
+                    <img src={logo} alt="" width="90" height="90" />
+                </Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarContent">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/">Accueil</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/aboutus">Qui somme nous</Link>
+                        </li>
+                        
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/services" >Services</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/references">Reference</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/contact">Contact</Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
     );
 }

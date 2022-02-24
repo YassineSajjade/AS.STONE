@@ -1,22 +1,24 @@
-import NavbarC from "./components/NavbarC";
-import CarouselC from './components/CarouselC';
-import SectionAboutUs from "./components/SectionAboutUs";
-import SectionServices from "./components/SectionServices";
-import SectionReferences from "./components/SectionReferences";
-import Footer from "./components/Footer";
-import CopyRight from "./components/CopyRight";
+import React from 'react';
 import 'hover.css/css/hover-min.css';
+import { Routes, Route } from 'react-router-dom';
+import Acceuil from './pages/Acceuil';
+import AsStone from './pages/AsStone';
+import Services from './pages/Services';
+import References from './pages/References';
+import Contact from './pages/Contact';
+
+
 
 function App() {
   return (
     <div className="App">
-      <NavbarC/>
-      <CarouselC/>
-      <SectionAboutUs/>
-      <SectionServices/>
-      <SectionReferences/>
-      <Footer/>
-      <CopyRight/>
+      <Routes>
+        <Route path="/" element={<Acceuil />} />
+        <Route path="/aboutus" element={<AsStone />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/references" element={<References />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

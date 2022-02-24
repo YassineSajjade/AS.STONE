@@ -54,7 +54,7 @@ function SectionReferences() {
         <div className='col-sm-12 col-md-4 col-lg-2' id='ourRef'>
           <div id='ourRefBar'></div>
           <ScrollAnimation animateIn='animate__pulse' animateOnce={true} delay={0.5}>
-          <h3>Nos Références</h3>
+            <h3>Nos Références</h3>
           </ScrollAnimation>
         </div>
         
