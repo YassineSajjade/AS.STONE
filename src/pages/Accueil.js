@@ -7,7 +7,7 @@ import SectionReferences from "../components/SectionReferences";
 import Footer from "../components/Footer";
 import CopyRight from "../components/CopyRight";
 
-function Acceuil() {
+function Accueil() {
     return (
         <>
             <NavbarC />
@@ -21,4 +21,4 @@ function Acceuil() {
     )
 }
 
-export default Acceuil
+export default Accueil

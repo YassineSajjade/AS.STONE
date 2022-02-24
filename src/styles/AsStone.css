@@ -1,0 +1,48 @@
+.sectionQuiSommesNous {
+    padding: 110px 0 70px;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: var(--main-color);
+    
+}
+.sectionQuiSommesNous .row h1 {
+    color: #fff;
+}
+.sectionQuiSommesNous .row .nav .nav-item {
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px;
+    font-size: 16px;
+}
+.sectionQuiSommesNous .row .nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.sectionQuiSommesNous .row .nav li#liBefor::before{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #fff;
+    content: '>';
+}
+/* **************** */
+.sectionBienvenue .row #bienvenueSur {
+    font-size: 18px;
+    color: #a3a3a3;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.sectionBienvenue .row h2 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+.sectionBienvenue .row #firstPara {
+    font-size: 24px;
+    color: #212121;
+    text-align: left;
+    margin-bottom: 20px;
+    text-align: justify;
+}

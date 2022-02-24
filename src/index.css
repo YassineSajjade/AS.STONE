@@ -17,4 +17,8 @@ code {
   --green-color: #6aaf08
 }
 
+.nav-link {
+  color: var(--main-color) !important;
+}
+
 
