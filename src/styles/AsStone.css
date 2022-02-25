@@ -46,3 +46,63 @@
     margin-bottom: 20px;
     text-align: justify;
 }
+.sectionBienvenue .row #secondPara {
+    color: #a3a3a3;
+    margin-bottom: 20px;
+}
+.sectionBienvenue .row #activiteList {
+    color: #5c5c5c;
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+.sectionBienvenue .row #activiteList li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.sectionBienvenue .row #activiteList li::before{
+    content: '>';
+    position: absolute;
+    left: -20px;
+    font-weight: 700;
+}
+.sectionBienvenue .rightSide{
+    margin-top: 80px;
+}
+.sectionBienvenue .rightSide div{
+    margin-bottom: 20px;
+    padding: 0 0 0 110px;
+}
+@media (max-width: 576px){
+    .sectionBienvenue .rightSide div{
+        padding: 0;
+    }
+}
+.sectionBienvenue .rightSide img{
+    max-width: 100%;
+    border-style: solid;
+    border-width: 0 9px 8px 0;
+    border-color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 7px 0px 3px var(--main-color);
+}
+/* ******************* */
+.sectionValeur h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--main-color);
+    text-align: center;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.sectionValeur ul{
+    text-align: justify;
+    font-weight: 500;
+}
+.sectionValeur ul li::marker{
+    color: var(--main-color);
+}
