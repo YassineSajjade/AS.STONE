@@ -63,13 +63,13 @@ function AsStone() {
             <div className='col-md-12 col-lg-6 offset-lg-1'>
               <div className='rightSide'>
                 <div>
-                  <img src={nettoyage1} />
+                  <img className='hvr-bounce-in' src={nettoyage1} alt='...'/>
                 </div>
                 <div>
-                  <img src={gardiennage1} />
+                  <img className='hvr-bounce-in' src={gardiennage1} alt='...'/>
                 </div>
                 <div>
-                  <img src={jardinage1} />
+                  <img className='hvr-bounce-in' src={jardinage1} alt='...'/>
                 </div>
               </div>
             </div>

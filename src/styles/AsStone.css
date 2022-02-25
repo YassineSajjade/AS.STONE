@@ -72,8 +72,8 @@
     margin-top: 80px;
 }
 .sectionBienvenue .rightSide div{
-    margin-bottom: 20px;
-    padding: 0 0 0 110px;
+    margin-bottom: 50px;
+    padding: 0 0 0 150px;
 }
 @media (max-width: 576px){
     .sectionBienvenue .rightSide div{
