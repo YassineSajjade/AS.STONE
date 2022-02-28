@@ -1,0 +1,55 @@
+.sectionReferences {
+    padding: 110px 0 70px;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: var(--main-color);
+}
+.sectionReferences .row h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.sectionReferences .row .nav .nav-item {
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px;
+    font-size: 16px;
+}
+.sectionReferences .row .nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.sectionReferences .row .nav li#liBefor::before{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #fff;
+    content: '>';
+}
+/* ********************** */
+.sectionConfiance {
+    padding: 10px;
+}
+.sectionConfiance .title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sectionConfiance .title h2{
+    color: #0e8692;
+}
+.sectionConfiance .title h2 span{
+    color: #000;
+    font-weight: 700;
+}
+.sectionConfiance .desc p{
+    text-align: center;
+}
+/* ****************** */
+.sectionLogos .row .column {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.sectionLogos .row img {
+    max-width: 100%;
+}
