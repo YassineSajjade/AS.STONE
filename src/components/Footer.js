@@ -8,7 +8,7 @@ function Footer() {
 
             <div className='row'>
 
-                <div className='col-lg-4' >
+                <div className='column col-lg-4' >
                     <div className='inline'>
                         <h3 className='footerTitle'>
                             <strong>STE AS.STONE MAROC</strong>
@@ -21,7 +21,7 @@ function Footer() {
                     </p>
                 </div>
 
-                <div className='col-lg-4'>
+                <div className='column col-lg-4'>
                     <div className='inline'>
                         <h3 className='footerTitle'>
                             <strong>CONTACTEZ NOUS</strong>
@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className='col-lg-4'>
+                <div className='column col-lg-4'>
                     <div className='inline'>
                         <h3 className='footerTitle'>MENU</h3>
                     </div>

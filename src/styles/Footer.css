@@ -1,6 +1,9 @@
 #footer {
     margin-top: 80px;
 }
+#footer .row .column{
+    margin-top: 30px;
+}
 #footer .row .inline {
     border-bottom: 3px solid var(--main-color);
     margin-bottom: 25px;

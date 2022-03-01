@@ -2,11 +2,16 @@ import React from 'react';
 import NavbarC from '../components/NavbarC';
 import { Link } from 'react-router-dom';
 import '../styles/ReferencesP.css';
-import nettoyage1 from '../images/nettoyage/nettoyage1.jpg';
-import gardiennage1 from '../images/gardiennage/gardiennage1.jpg';
-import jardinage1 from '../images/jardinage/jardinage1.jpg';
+import refLogos from '../images/referencesLogos/RefLogos';
+import Footer from '../components/Footer';
+import CopyRight from '../components/CopyRight';
 
 function References() {
+
+  
+
+  console.log(refLogos[0]);
+
   return (
     <>
       <NavbarC/>
@@ -48,24 +53,21 @@ function References() {
       <div className='sectionLogos'>
         <div className='container'>
           <div className='row'>
-            <div className='column col-lg-3 col-md-4 col-sm-12'>
-              <img src={nettoyage1} alt='...'/>
-            </div>
-            <div className='column col-lg-3 col-md-4 col-sm-12'>
-              <img src={jardinage1} alt='...'/>
-            </div>
-            <div className='column col-lg-3 col-md-4 col-sm-12'>
-              <img src={gardiennage1} alt='...'/>
-            </div>
-            <div className='column col-lg-3 col-md-4 col-sm-12'>
-              <img src={gardiennage1} alt='...'/>
-            </div>
-            <div className='column col-lg-3 col-md-4 col-sm-12'>
-              <img src={gardiennage1} alt='...'/>
-            </div>
+            {
+              refLogos.map( (logo,index) => {
+                return(
+                  <div className='column col-lg-4 col-md-6 col-sm-12' key={index}>
+                      <img src={logo} alt='...'/>
+                  </div>
+                )
+              } )
+            }
           </div>
         </div>
       </div>
+
+      <Footer/>
+      <CopyRight/>
 
     </>
   )
