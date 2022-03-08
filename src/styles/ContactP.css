@@ -1,0 +1,55 @@
+.sectionContactUs {
+    padding: 110px 0 70px;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: var(--main-color);
+}
+.sectionContactUs .row h1 {
+    color: #fff;
+}
+.sectionContactUs .row .nav .nav-item {
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px;
+    font-size: 16px;
+}
+.sectionContactUs .row .nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.sectionContactUs .row .nav li#liAfter::before{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #fff;
+    content: '>';
+}
+/* ***************************** */
+.sectionFormInfo{
+    margin-top: 60px;
+}
+.sectionFormInfo .row .column{
+    margin-top: 60px;
+}
+.sectionFormInfo .row .inline{
+    border-bottom: 3px solid var(--main-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sectionFormInfo .row ul#listContact p{
+    color: #777b7b;
+    font-weight: 400;
+}
+.sectionFormInfo .row ul#listContact p span{
+    color: #000;
+    font-weight: 600;
+}
+.sectionFormInfo .row form .btnSubmit{
+    color: var(--main-color);
+    border-color: var(--main-color) ;
+}
+.sectionFormInfo .row form .btnSubmit:hover{
+    color: #fff;
+}
