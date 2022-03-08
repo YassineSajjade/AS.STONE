@@ -18,10 +18,8 @@ function NavbarC() {
         const offset = window.scrollY;
         if (offset >= 0) {
             setScroll(true);
-            console.log('true ' + offset);
         } else {
             setScroll(false);
-            console.log('false ' + offset);
         }
     }
 

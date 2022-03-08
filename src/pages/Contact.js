@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavbarC from '../components/NavbarC';
 import '../styles/ContactP.css';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,44 @@ import Footer from '../components/Footer';
 import CopyRight from '../components/CopyRight';
 
 function Contact() {
+
+  const [check, setCheck] = useState('none');
+  const [checkNom, setCheckNom] = useState('');
+  const [checkEmail, setCheckEmail] = useState('');
+  const [checkSujet, setCheckSujet] = useState('');
+  const [checkMessage, setCheckMessage] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const nom = e.target.nom.value;
+    const email = e.target.email.value;
+    const sujet = e.target.sujet.value;
+    const message = e.target.message.value;
+
+    if (nom === '' && email === '' && sujet === '' && message === '') {
+      setCheck('block');
+      setCheckNom('is-invalid');
+      setCheckEmail('is-invalid');
+      setCheckSujet('is-invalid');
+      setCheckMessage('is-invalid');
+    } else {
+      setCheck('none');
+      if (nom.length > 2 ) {
+        setCheckNom('is-valid');
+      }
+      if (email.length > 2 ) {
+        setCheckEmail('is-valid');
+      }
+      if (sujet.length > 2 ) {
+        setCheckSujet('is-valid');
+      }
+      if (message.length > 2 ) {
+        setCheckMessage('is-valid');
+      }
+    }
+    console.log(nom+'/'+email+'/'+sujet+'/'+message)
+  }
+
   return (
     <>
       <NavbarC />
@@ -45,25 +83,43 @@ function Contact() {
               <div className='inline'>
                 <h4>Envoyez-nous un E-mail</h4>
               </div>
-              <form>
-                <div class="mb-3">
-                  <label for="name" class="form-label">Nom complet *</label>
-                  <input type="text" class="form-control" id="name" />
+
+              <div className="alert alert-danger" role="alert" style={{ display: check }}>
+                Ces champs sont obligatoire !!
+              </div>
+
+              <form onSubmit={sendEmail}>
+                <div className="mb-3">
+                  <label htmlFor="nom" className="form-label">Nom complet *</label>
+                  <input type="text" className={`form-control ${checkNom} `} id="nom" aria-describedby="nomFeedback" />
+                  <div id="nomFeedback" className="invalid-feedback">
+                    le nom doit étre au moins 3 letters.
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email *</label>
-                  <input type="email" class="form-control" id="email" />
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">Email *</label>
+                  <input type="email" className={`form-control ${checkEmail} `} id="email" aria-describedby='emailFeedback'/>
+                  <div id="emailFeedback" className="invalid-feedback">
+                    le email doit étre valide.
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="sujet" class="form-label">Sujet *</label>
-                  <input type="text" class="form-control" id="sujet" />
+                <div className="mb-3">
+                  <label htmlFor="sujet" className="form-label">Sujet *</label>
+                  <input type="text" className={`form-control ${checkSujet} `} id="sujet" aria-describedby='sujetFeedback'/>
+                  <div id="sujetFeedback" className="invalid-feedback">
+                    le sujet doit étre au moins 3 letters.
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message *</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">Message *</label>
+                  <textarea className={`form-control ${checkMessage} `} id="message" rows="3" aria-describedby='messageFeedback'/>
+                  <div id="messageFeedback" className="invalid-feedback">
+                    le message doit étre au moins 3 letters.
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-outline btnSubmit hvr-radial-out ">Envoyer</button>
+                <button type="submit" className="btn btn-outline btnSubmit hvr-radial-out ">Envoyer</button>
               </form>
+
 
             </div>
 
@@ -98,9 +154,9 @@ function Contact() {
         </div>
       </div>
 
-      <SectionReferences/>
-      <Footer/>
-      <CopyRight/>
+      <SectionReferences />
+      <Footer />
+      <CopyRight />
 
     </>
   )
