@@ -1,9 +1,7 @@
 import React from 'react';
 import '../styles/References.css';
 import Slider from 'react-slick';
-import nettoyage1 from '../images/nettoyage/nettoyage1.jpg';
-import gardiennage1 from '../images/gardiennage/gardiennage1.jpg';
-import jardinage1 from '../images/jardinage/jardinage1.jpg';
+import refLogos from '../images/referencesLogos/RefLogos';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function SectionReferences() {
@@ -57,37 +55,19 @@ function SectionReferences() {
             <h3>Nos Références</h3>
           </ScrollAnimation>
         </div>
-        
-        <div className='col-sm-12 col-md-8 col-lg-10' style={{marginTop: '30px'}}>
+
+        <div className='col-sm-12 col-md-8 col-lg-10' style={{ marginTop: '30px' }}>
 
           <Slider {...settings} className='slick'>
-            <div>
-              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={nettoyage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={gardiennage1} alt='' />
-            </div>
-            <div>
-              <img className="img-fluid rounded-start" src={jardinage1} alt='' />
-            </div>
+            {
+              refLogos.map((logo, index) => {
+                return(
+                  <div key={index}>
+                    <img className="img-fluid rounded-start" src={logo} alt='' />
+                  </div>
+                )
+              })
+            }
           </Slider>
 
         </div>

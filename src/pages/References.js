@@ -8,10 +8,6 @@ import CopyRight from '../components/CopyRight';
 
 function References() {
 
-  
-
-  console.log(refLogos[0]);
-
   return (
     <>
       <NavbarC/>
