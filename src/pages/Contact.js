@@ -18,7 +18,8 @@ function Contact() {
   const [sujet, setSujet] = useState('');
   const [message, setMessage] = useState('');
 
-  const [check, setCheck] = useState('none');
+  const [checkDanger, setCheckDanger] = useState('none');
+  const [checkSuccess, setCheckSuccess] = useState('none');
   const [checkNom, setCheckNom] = useState('');
   const [checkEmail, setCheckEmail] = useState('');
   const [checkSujet, setCheckSujet] = useState('');
@@ -27,6 +28,8 @@ function Contact() {
   const handleName = (e) => {
     if(e.target.value.length < 3){
       setCheckNom('is-invalid');
+      setNom(e.target.value);
+      setStatusNom(false);
     }else{
       setCheckNom('is-valid');
       setNom(e.target.value);
@@ -42,12 +45,16 @@ function Contact() {
       setStatusEmail(true);
     }else{
       setCheckEmail('is-invalid');
+      setEmail(e.target.value);
+      setStatusEmail(false);
     }
   }
 
   const handleSujet = (e) => {
     if(e.target.value.length < 3){
       setCheckSujet('is-invalid');
+      setSujet(e.target.value);
+      setStatusSujet(false);
     }else{
       setCheckSujet('is-valid');
       setSujet(e.target.value);
@@ -58,6 +65,8 @@ function Contact() {
   const handleMessqge = (e) => {
     if(e.target.value.length < 3){
       setCheckMessage('is-invalid');
+      setMessage(e.target.value);
+      setStatusMessage(false);
     }else{
       setCheckMessage('is-valid');
       setMessage(e.target.value);
@@ -69,7 +78,7 @@ function Contact() {
     e.preventDefault();
 
     if (nom === '' && email === '' && sujet === '' && message === '') {
-      setCheck('block');
+      setCheckDanger('block');
       setCheckNom('is-invalid');
       setCheckEmail('is-invalid');
       setCheckSujet('is-invalid');
@@ -77,6 +86,7 @@ function Contact() {
     }else{
       if(statusNom === true && statusEmail === true && statusSujet === true && statusMessage === true ){
         resetAll(e);
+        setCheckSuccess('block');
         console.log(nom+'/'+email+'/'+sujet+'/'+message);
       }
     }
@@ -88,7 +98,7 @@ function Contact() {
     setSujet('');
     setMessage('');
 
-    setCheck('none');
+    setCheckDanger('none');
     setCheckNom('');
     setCheckEmail('');
     setCheckSujet('');
@@ -100,6 +110,14 @@ function Contact() {
     setStatusMessage(false);
 
     e.target.reset();
+
+    disappearAlert();
+  }
+
+  const disappearAlert = () =>{
+    setTimeout(() => {
+      setCheckSuccess('none');
+    }, 2000)
   }
 
   return (
@@ -141,8 +159,12 @@ function Contact() {
                 <h4>Envoyez-nous un E-mail</h4>
               </div>
 
-              <div className="alert alert-danger" role="alert" style={{ display: check }}>
+              <div className="alert alert-danger" role="alert" style={{ display: checkDanger }}>
                 Ces champs sont obligatoire !!
+              </div>
+
+              <div className="alert alert-success" role="alert" style={{ display: checkSuccess }}>
+                Nous avons bien reçu votre message et nous vous répondrons dans les plus brefs délais !
               </div>
 
               <form onSubmit={sendEmail} id='from'>
@@ -174,7 +196,7 @@ function Contact() {
                     le message doit étre au moins 3 letters.
                   </div>
                 </div>
-                <button type="submit" className="btn btn-outline btnSubmit hvr-radial-out ">Envoyer</button>
+                <button type="submit" className="btn btn-outline btnSubmit">Envoyer</button>
               </form>
 
 

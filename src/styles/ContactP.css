@@ -49,7 +49,15 @@
 .sectionFormInfo .row form .btnSubmit{
     color: var(--main-color);
     border-color: var(--main-color) ;
+    transition: all .20s linear;
 }
 .sectionFormInfo .row form .btnSubmit:hover{
     color: #fff;
+    background-color: var(--main-color);
+}
+.sectionFormInfo .row form .btnSubmit:focus{
+    box-shadow: none
+}
+.sectionFormInfo .row .column .alert{
+    transition: all .20s linear !important;
 }
