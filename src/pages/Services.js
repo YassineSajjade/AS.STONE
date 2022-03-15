@@ -46,11 +46,24 @@ function Services() {
               <img src={nettoyage1} alt='...' />
             </div>
             <div className='col-lg-6 col-md-12'>
-              <p>Dolore esse amet ad in. Aute adipisicing esse magna esse pariatur excepteur amet. Laboris magna laborum fugiat ut exercitation ea. Id adipisicing dolore ullamco magna aute mollit duis aliquip ex mollit consequat fugiat. In consequat enim esse consequat nisi elit occaecat eu aliqua. Velit qui eiusmod nisi laboris deserunt consectetur.
-
-                Dolore et ea culpa excepteur duis elit elit do irure sint. Voluptate magna aute ad voluptate. Nulla ad anim incididunt id est excepteur deserunt amet. Esse magna amet irure proident consectetur elit excepteur proident excepteur amet. Do veniam sint ex qui commodo amet commodo qui et ea. Laborum culpa officia ullamco deserunt nulla consectetur minim et Lorem do elit.
-
-                Id dolor anim Lorem esse consequat cupidatat non quis voluptate eiusmod. Mollit cillum exercitation fugiat exercitation nulla laboris labore ad anim enim ea labore irure. Quis nostrud quis ad est aliqua do anim deserunt ipsum id esse culpa.</p>
+              <p>Nos agents de nettoyage, s'occupent de la propreté de tous vos locaux :</p>
+              <ul>
+                <li>Nettoyage industriel</li>
+                <li>Nettoyage de bureau</li>
+                <li>Nettoyage des commerces et grandes surfaces</li>
+                <li>Nettoyage de parkings</li>
+                <li>Nettoyage chez les particuliers</li>
+                <li>Nettoyage des vitres</li>
+                <li>Remise en état tout sol- décapage, mise en cire, Shampooing moquettes</li>
+                <li>Aménagements et finitions</li>
+                <li>Service hygiène (papier hygiénique, essuie-mains, savon)</li>
+              </ul>
+              <p>En qualité de prestataire de services, nous mettons tout en oeuvre pour apporter à nos clients le meilleur, nous sommes garants de la confiance qu'ils nous accordent.</p>
+              <p>Cette responsabilité nous impose:</p>
+              <ul>
+                <li>- La persévérance et la discrétion.</li>
+                <li>- La réactivité et la disponibilité.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -60,11 +73,28 @@ function Services() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6 col-md-12'>
-              <p>Dolore esse amet ad in. Aute adipisicing esse magna esse pariatur excepteur amet. Laboris magna laborum fugiat ut exercitation ea. Id adipisicing dolore ullamco magna aute mollit duis aliquip ex mollit consequat fugiat. In consequat enim esse consequat nisi elit occaecat eu aliqua. Velit qui eiusmod nisi laboris deserunt consectetur.
-
-                Dolore et ea culpa excepteur duis elit elit do irure sint. Voluptate magna aute ad voluptate. Nulla ad anim incididunt id est excepteur deserunt amet. Esse magna amet irure proident consectetur elit excepteur proident excepteur amet. Do veniam sint ex qui commodo amet commodo qui et ea. Laborum culpa officia ullamco deserunt nulla consectetur minim et Lorem do elit.
-
-                Id dolor anim Lorem esse consequat cupidatat non quis voluptate eiusmod. Mollit cillum exercitation fugiat exercitation nulla laboris labore ad anim enim ea labore irure. Quis nostrud quis ad est aliqua do anim deserunt ipsum id esse culpa.</p>
+              <p>Nos sommes particulièrement vigilants à rendre vos biens moins vulnérables. Parce que la sécurité est avant tout une affaire de vigilance humaine <br />
+                G.AS.STONE Securité ment en place chez vous des équipes d'agents de surveillance aux compétences spécifiques.
+              </p>
+              <span>Efficacité, discrétion, dissuasion, responsabilisation.</span>
+              <p>Selon la nature de vos sites et les niveaux de sécurité requis, G.AS STONE Sécurité apporte des solutions opérantes:</p>
+              <ul>
+                <li>Surveillance statique des lieux.</li>
+                <li>Accueil, filtrage, contrôle d'accès, assistance aux visiteurs.</li>
+                <li>Rondes à vue diurnes et/ou nocturne, avec ou sans chien.</li>
+                <li>Ouverture et fermeture des locaux.</li>
+                <li>Vérification des installations et systèmes de sécurité.</li>
+                <li>Maintenance d'une main-courante.</li>
+                <li>Contrôle des badges d'accès</li>
+                <li>Surveillance des sites contre intrusions malveillantes.</li>
+                <li>Protection les biens et des personnes.</li>
+                <li>Surveillance des engins et matériels de chantiers.</li>
+                <li>Surveillance des sites inoccupés.</li>
+              </ul>
+              <span>EVENEMENTIEL</span>
+              <p>Pour assurer le bon déroulement de votre manifestation, qu'il soit sportif, culturel, officiel, Institutionnel, la réussite de votre événement passe aussi par sa sécurité. G.AS.STONESécurité vous dédie des équipes parfaitement rodées ou conscience professionnelle, maîtrise, rigueur vont de pair avec efficacité et discrétion.<br />
+                Des prestations au service de la sécurité et de votre image de marque de la prestation la plus simple à la plus sophistiquée, G.AS.STONE Sécurité accompagne vos événements privés ou publics et assure la protection de vos invites.
+              </p>
             </div>
             <div className='col-lg-6 col-md-12'>
               <img src={gardiennage1} alt='...' />
@@ -80,19 +110,32 @@ function Services() {
               <img src={jardinage1} alt='...' />
             </div>
             <div className='col-lg-6 col-md-12'>
-              <p>Dolore esse amet ad in. Aute adipisicing esse magna esse pariatur excepteur amet. Laboris magna laborum fugiat ut exercitation ea. Id adipisicing dolore ullamco magna aute mollit duis aliquip ex mollit consequat fugiat. In consequat enim esse consequat nisi elit occaecat eu aliqua. Velit qui eiusmod nisi laboris deserunt consectetur.
-
-                Dolore et ea culpa excepteur duis elit elit do irure sint. Voluptate magna aute ad voluptate. Nulla ad anim incididunt id est excepteur deserunt amet. Esse magna amet irure proident consectetur elit excepteur proident excepteur amet. Do veniam sint ex qui commodo amet commodo qui et ea. Laborum culpa officia ullamco deserunt nulla consectetur minim et Lorem do elit.
-
-                Id dolor anim Lorem esse consequat cupidatat non quis voluptate eiusmod. Mollit cillum exercitation fugiat exercitation nulla laboris labore ad anim enim ea labore irure. Quis nostrud quis ad est aliqua do anim deserunt ipsum id esse culpa.</p>
+              <p>Professionnel dans le Jardinage et l'Entretien des Espaces Verts</p>
+              <p>
+                les Jardiniers spécialisés de Groupe AS Stone interviennent selon un planning défini pour réaliser tailles, tontes et traitements spécifiques verts.<br />
+                afin de conserver vos espaces verts, jardins et terrasses en bon état tout au long de l'année selon vos besoins et vos disponibilités.
+              </p>
+              <span>Nos domaines d'activité :</span>
+              <ul>
+                <li>Tonte de pelouse</li>
+                <li>Taille des arbres, taille des haies et de tous végétaux.</li>
+                <li>Binage, désherbage, Ramassage des feuilles</li>
+                <li>Traitement phytosanitaire.</li>
+                <li>Renouvellement de la terre, apport d'engrais.</li>
+                <li>Plantations fleurs, arbustes et arbres</li>
+                <li>Traitement des allées et terrasses. • Entretien des clôtures et bordures.</li>
+                <li>Entretien des clôtures et bordures.</li>
+                <li>Nettoyage des chéneaux...</li>
+              </ul>
+              <p>Nous travaillons pour toutes les entreprises ou les particuliers.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <SectionReferences/>
-      <Footer/>
-      <CopyRight/>
+      <SectionReferences />
+      <Footer />
+      <CopyRight />
 
     </>
   )

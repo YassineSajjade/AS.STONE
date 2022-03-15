@@ -45,6 +45,12 @@
 .sectionNettoyage p{
     text-align: justify;
     margin-top: 20px;
+    color: #777;
+    font-weight: 600;
+}
+.sectionNettoyage ul{
+    list-style: none;
+    color: #777;
 }
 /* ******************* */
 .sectionGardiennage{
@@ -65,6 +71,16 @@
 .sectionGardiennage p{
     text-align: justify;
     margin-top: 20px;
+    font-weight: 700;
+    color: #777;
+}
+.sectionGardiennage ul{
+    list-style: none;
+    color: #777;
+}
+.sectionGardiennage span{
+    font-weight: 700;
+    color: var(--main-color);
 }
 /* ******************* */
 .sectionJardinage{
@@ -85,4 +101,14 @@
 .sectionJardinage p{
     text-align: justify;
     margin-top: 20px;
+    color: #777;
+    font-weight: 600;
+}
+.sectionJardinage ul{
+    color: #777;
+    list-style: none;
+}
+.sectionJardinage span{
+    color: var(--main-color);
+    font-weight: 700;
 }
