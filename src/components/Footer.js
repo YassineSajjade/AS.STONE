@@ -11,12 +11,12 @@ function Footer() {
                 <div className='column col-lg-4' >
                     <div className='inline'>
                         <h3 className='footerTitle'>
-                            <strong>STE AS.STONE MAROC</strong>
+                            <strong>STE NFO-SERVICE</strong>
                         </h3>
                     </div>
                     <p id='footerDesc'>
-                        <strong>AS.STONE MAROC est une société multiservice implantée à casablanca maroc.<br />
-                            AS.STONE est spécialisée dans le nettoyage général, l'entretien des espaces vert, et la sécurité.<br />
+                        <strong>NFO-SERVICE est une société multiservice implantée à casablanca maroc.<br />
+                            NFO-SERVICE est spécialisée dans le nettoyage général, l'entretien des espaces vert, et la sécurité.<br />
                             Notre société est au service des entreprises et particuliers.</strong>
                     </p>
                 </div>
@@ -36,12 +36,12 @@ function Footer() {
                             </li>
                             <li>
                                 <strong>
-                                    <p>Gsm: 06 61 59 32 55</p>
+                                    <p>Gsm: +212 612-787880</p>
                                 </strong>
                             </li>
                             <li>
                                 <strong>
-                                    <p>Email: as.stone.maroc@gmail.com</p>
+                                    <p>Email: nfo.service.maroc@gmail.com</p>
                                 </strong>
                             </li>
                         </ul>
@@ -64,7 +64,7 @@ function Footer() {
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <Link className='hvr-pop' to='/aboutus'>AS.STONE Maroc</Link>
+                                        <Link className='hvr-pop' to='/aboutus'>NFO-SERVICE</Link>
                                     </p>
                                 </strong>
                             </li>

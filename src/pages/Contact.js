@@ -216,12 +216,12 @@ function Contact() {
                   </li>
                   <li>
                     <strong>
-                      <p><span>telephone:</span> 06 61 59 32 55</p>
+                      <p><span>telephone:</span> +212 612-787880</p>
                     </strong>
                   </li>
                   <li>
                     <strong>
-                      <p><span>Email:</span> as.stone.maroc@gmail.com</p>
+                      <p><span>Email:</span> nfo.service.maroc@gmail.com</p>
                     </strong>
                   </li>
                 </ul>

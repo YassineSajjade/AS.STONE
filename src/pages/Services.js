@@ -74,10 +74,10 @@ function Services() {
           <div className='row'>
             <div className='col-lg-6 col-md-12'>
               <p>Nos sommes particulièrement vigilants à rendre vos biens moins vulnérables. Parce que la sécurité est avant tout une affaire de vigilance humaine <br />
-                G.AS.STONE Securité ment en place chez vous des équipes d'agents de surveillance aux compétences spécifiques.
+                NFO-SERVICE Securité ment en place chez vous des équipes d'agents de surveillance aux compétences spécifiques.
               </p>
               <span>Efficacité, discrétion, dissuasion, responsabilisation.</span>
-              <p>Selon la nature de vos sites et les niveaux de sécurité requis, G.AS STONE Sécurité apporte des solutions opérantes:</p>
+              <p>Selon la nature de vos sites et les niveaux de sécurité requis, NFO-SERVICE Sécurité apporte des solutions opérantes:</p>
               <ul>
                 <li>Surveillance statique des lieux.</li>
                 <li>Accueil, filtrage, contrôle d'accès, assistance aux visiteurs.</li>
@@ -92,8 +92,8 @@ function Services() {
                 <li>Surveillance des sites inoccupés.</li>
               </ul>
               <span>EVENEMENTIEL</span>
-              <p>Pour assurer le bon déroulement de votre manifestation, qu'il soit sportif, culturel, officiel, Institutionnel, la réussite de votre événement passe aussi par sa sécurité. G.AS.STONESécurité vous dédie des équipes parfaitement rodées ou conscience professionnelle, maîtrise, rigueur vont de pair avec efficacité et discrétion.<br />
-                Des prestations au service de la sécurité et de votre image de marque de la prestation la plus simple à la plus sophistiquée, G.AS.STONE Sécurité accompagne vos événements privés ou publics et assure la protection de vos invites.
+              <p>Pour assurer le bon déroulement de votre manifestation, qu'il soit sportif, culturel, officiel, Institutionnel, la réussite de votre événement passe aussi par sa sécurité. NFO-SERVICE Sécurité vous dédie des équipes parfaitement rodées ou conscience professionnelle, maîtrise, rigueur vont de pair avec efficacité et discrétion.<br />
+                Des prestations au service de la sécurité et de votre image de marque de la prestation la plus simple à la plus sophistiquée, NFO-SERVICE Sécurité accompagne vos événements privés ou publics et assure la protection de vos invites.
               </p>
             </div>
             <div className='col-lg-6 col-md-12'>
@@ -112,7 +112,7 @@ function Services() {
             <div className='col-lg-6 col-md-12'>
               <p>Professionnel dans le Jardinage et l'Entretien des Espaces Verts</p>
               <p>
-                les Jardiniers spécialisés de Groupe AS Stone interviennent selon un planning défini pour réaliser tailles, tontes et traitements spécifiques verts.<br />
+                les Jardiniers spécialisés de NFO-SERVICE interviennent selon un planning défini pour réaliser tailles, tontes et traitements spécifiques verts.<br />
                 afin de conserver vos espaces verts, jardins et terrasses en bon état tout au long de l'année selon vos besoins et vos disponibilités.
               </p>
               <span>Nos domaines d'activité :</span>

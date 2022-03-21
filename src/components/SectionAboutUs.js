@@ -11,7 +11,7 @@ function SectionAboutUs() {
         
         <div className='col-sm-12 col-lg-6' id='textTitle'>
         <ScrollAnimation animateIn='animate__bounceInLeft' animateOnce={true} delay={0.5}>
-          <h2><span>AS.STONE</span> Maroc</h2>
+          <h2><span>NFO-SERVICE</span></h2>
         </ScrollAnimation>
         </div>
 

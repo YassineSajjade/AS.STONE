@@ -46,7 +46,7 @@ function AsStone() {
             <div className='col-md-12 col-lg-5'>
               <div>
                 <h1 id='bienvenueSur'>Bienvenue sur :</h1>
-                <h2>AS.Stone Maroc</h2>
+                <h2>NFO-SERVICE</h2>
                 <p className='text-justify' id='firstPara'>
                   est une société de Multiservice au maroc, Et spécialisée dans le nettoyage général, l'entretien des espaces vert, la sécurité et la maintenance de premier niveau.
                 </p>

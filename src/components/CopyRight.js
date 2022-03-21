@@ -6,7 +6,7 @@ function CopyRight() {
     <div id='copyRight'>
         <div className='container'>
             <div id='tdr' className='hvr-pop'>
-                ©.Tous droits réservés 2022 | as-stone.ma
+                ©.Tous droits réservés 2022 
             </div>
         </div>
     </div>
