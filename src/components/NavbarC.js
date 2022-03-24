@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
-import logo from '../images/as.stone-logo2.png';
+import logo from '../images/nfo-logo.png';
 
 
 
@@ -34,10 +34,11 @@ function NavbarC() {
 
 
     return (
-        <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fff' }}>
+        <div className={`navbar navbar-expand-lg ${active}`} style={{ boxShadow: shadow, background: '#fbfbfb' }}>
             <div className="container">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="" width="90" height="90" />
+                    <span>NFO-SERVICES</span>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

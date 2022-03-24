@@ -28,7 +28,7 @@ function SectionServices() {
 
                     <div className="col-sm-12 col-md-8 col-lg-8">
                         <div className="card-body">
-                            <h5 className="card-title"><span>NFO-SERVICE</span> Nettoyage</h5>
+                            <h5 className="card-title"><span>NFO-SERVICES</span> Nettoyage</h5>
                             <p className="card-text lh-base text-break">
                                 vous offre un service de nettoyage impeccable à tout moment avec de qualité supérieure et une satisfaction garantie
                                 L'entreprise s'engage à vous offrir un service de qualité à des prix très compétitifs...
@@ -52,7 +52,7 @@ function SectionServices() {
 
                     <div className="col-sm-12 col-md-8 col-lg-8">
                         <div className="card-body">
-                            <h5 className="card-title"><span style={{ color: 'var(--main-color)', fontWeight: 'bold' }}>NFO-SERVICE</span> Gardiennage</h5>
+                            <h5 className="card-title"><span style={{ color: 'var(--main-color)', fontWeight: 'bold' }}>NFO-SERVICES</span> Gardiennage</h5>
                             <p className="card-text lh-base text-break">
                             Nos sommes particulièrement vigilants à rendre vos biens moins vulnérables. Parce que la sécurité est avant tout une affaire de vigilance humaine...
                             </p>
@@ -76,7 +76,7 @@ function SectionServices() {
 
                     <div className="col-sm-12 col-md-8 col-lg-8">
                         <div className="card-body">
-                            <h5 className="card-title"><span style={{ color: 'var(--main-color)', fontWeight: 'bold' }}>NFO-SERVICE</span> Jardinage</h5>
+                            <h5 className="card-title"><span style={{ color: 'var(--main-color)', fontWeight: 'bold' }}>NFO-SERVICES</span> Jardinage</h5>
                             <p className="card-text lh-base text-break">
                             Nous sommes spécialisés dans la création, l'entretien et l'aménagement des jardins, 
                             et espaces verts à casablanca et partout au maroc afin de répondre aux besoins des particuliers, 

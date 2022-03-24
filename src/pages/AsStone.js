@@ -46,11 +46,11 @@ function AsStone() {
             <div className='col-md-12 col-lg-5'>
               <div>
                 <h1 id='bienvenueSur'>Bienvenue sur :</h1>
-                <h2>NFO-SERVICE</h2>
+                <h2>NFO-SERVICES</h2>
                 <p className='text-justify' id='firstPara'>
                   est une société de Multiservice au maroc, Et spécialisée dans le nettoyage général, l'entretien des espaces vert, la sécurité et la maintenance de premier niveau.
                 </p>
-                <p id='secondPara'> L'entretien des espaces vert, la sécurité et la maintenance de premier niveau et l'hygiène 3D. Notre société est au service des entreprises, commerçants, syndics et particuliers dans le cadre de prestations ponctuelles ou régulières.</p>
+                <p id='secondPara'> L'entretien des espaces vert, , surveillance & gardiennage, et l’intérim.</p>
                 <ul id='activiteList'>
                   <li>Nous offrons nos services en semaine, week-end et jours fériés.</li>
                   <li>Nous répondons à vos demandes dans les plus brefs délais.</li>

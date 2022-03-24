@@ -11,12 +11,12 @@ function Footer() {
                 <div className='column col-lg-4' >
                     <div className='inline'>
                         <h3 className='footerTitle'>
-                            <strong>STE NFO-SERVICE</strong>
+                            <strong>STE NFO-SERVICES</strong>
                         </h3>
                     </div>
                     <p id='footerDesc'>
-                        <strong>NFO-SERVICE est une société multiservice implantée à casablanca maroc.<br />
-                            NFO-SERVICE est spécialisée dans le nettoyage général, l'entretien des espaces vert, et la sécurité.<br />
+                        <strong>NFO-SERVICES est une société multiservice implantée à casablanca maroc.<br />
+                            NFO-SERVICES est spécialisée dans le nettoyage général, l'entretien des espaces vert, et la sécurité.<br />
                             Notre société est au service des entreprises et particuliers.</strong>
                     </p>
                 </div>
@@ -41,7 +41,7 @@ function Footer() {
                             </li>
                             <li>
                                 <strong>
-                                    <p>Email: nfo.service.maroc@gmail.com</p>
+                                    <p>Email: nfo.services.maroc@gmail.com</p>
                                 </strong>
                             </li>
                         </ul>
@@ -64,7 +64,7 @@ function Footer() {
                             <li className="list-group-item">
                                 <strong>
                                     <p>
-                                        <Link className='hvr-pop' to='/aboutus'>NFO-SERVICE</Link>
+                                        <Link className='hvr-pop' to='/aboutus'>NFO-SERVICES</Link>
                                     </p>
                                 </strong>
                             </li>

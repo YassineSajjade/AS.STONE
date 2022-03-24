@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import NavbarC from '../components/NavbarC';
 import '../styles/ContactP.css';
 import { Link } from 'react-router-dom';
 import SectionReferences from '../components/SectionReferences';
 import Footer from '../components/Footer';
 import CopyRight from '../components/CopyRight';
-
+import emailjs from '@emailjs/browser';
 function Contact() {
 
+  const form = useRef();
   const [statusNom, setStatusNom] = useState(false);
   const [statusSujet, setStatusSujet] = useState(false);
   const [statusEmail, setStatusEmail] = useState(false);
@@ -26,11 +27,11 @@ function Contact() {
   const [checkMessage, setCheckMessage] = useState('');
 
   const handleName = (e) => {
-    if(e.target.value.length < 3){
+    if (e.target.value.length < 3) {
       setCheckNom('is-invalid');
       setNom(e.target.value);
       setStatusNom(false);
-    }else{
+    } else {
       setCheckNom('is-valid');
       setNom(e.target.value);
       setStatusNom(true);
@@ -39,11 +40,11 @@ function Contact() {
 
   const handleEmail = (e) => {
     const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-    if(regex.test(e.target.value) === true){
+    if (regex.test(e.target.value) === true) {
       setCheckEmail('is-valid');
       setEmail(e.target.value);
       setStatusEmail(true);
-    }else{
+    } else {
       setCheckEmail('is-invalid');
       setEmail(e.target.value);
       setStatusEmail(false);
@@ -51,11 +52,11 @@ function Contact() {
   }
 
   const handleSujet = (e) => {
-    if(e.target.value.length < 3){
+    if (e.target.value.length < 3) {
       setCheckSujet('is-invalid');
       setSujet(e.target.value);
       setStatusSujet(false);
-    }else{
+    } else {
       setCheckSujet('is-valid');
       setSujet(e.target.value);
       setStatusSujet(true);
@@ -63,11 +64,11 @@ function Contact() {
   }
 
   const handleMessqge = (e) => {
-    if(e.target.value.length < 3){
+    if (e.target.value.length < 3) {
       setCheckMessage('is-invalid');
       setMessage(e.target.value);
       setStatusMessage(false);
-    }else{
+    } else {
       setCheckMessage('is-valid');
       setMessage(e.target.value);
       setStatusMessage(true);
@@ -83,11 +84,18 @@ function Contact() {
       setCheckEmail('is-invalid');
       setCheckSujet('is-invalid');
       setCheckMessage('is-invalid');
-    }else{
-      if(statusNom === true && statusEmail === true && statusSujet === true && statusMessage === true ){
+    } else {
+      if (statusNom === true && statusEmail === true && statusSujet === true && statusMessage === true) {
+        emailjs.sendForm('service_h2igikg', 'template_du8w6bp', form.current, 'mHbUeNt38wsZTPlT_')
+          .then((result) => {
+            console.log(result.text);
+          }, (error) => {
+            console.log(error.text);
+          });
         resetAll(e);
         setCheckSuccess('block');
-        console.log(nom+'/'+email+'/'+sujet+'/'+message);
+        // console.log(e);
+
       }
     }
   }
@@ -114,7 +122,7 @@ function Contact() {
     disappearAlert();
   }
 
-  const disappearAlert = () =>{
+  const disappearAlert = () => {
     setTimeout(() => {
       setCheckSuccess('none');
     }, 2000)
@@ -167,31 +175,31 @@ function Contact() {
                 Nous avons bien reçu votre message et nous vous répondrons dans les plus brefs délais !
               </div>
 
-              <form onSubmit={sendEmail} id='from'>
+              <form ref={form} onSubmit={sendEmail} id='from'>
                 <div className="mb-3">
                   <label htmlFor="nom" className="form-label">Nom complet *</label>
-                  <input type="text" className={`form-control ${checkNom} `} id="nom" aria-describedby="nomFeedback" onChange={handleName} />
+                  <input type="text" className={`form-control ${checkNom} `} id="nom" name='nom' aria-describedby="nomFeedback" onChange={handleName} />
                   <div id="nomFeedback" className="invalid-feedback">
                     le nom doit étre au moins 3 letters.
                   </div>
                 </div>
                 <div className="mb-3">
                   <label htmlFor="email" className="form-label">Email *</label>
-                  <input type="text" className={`form-control ${checkEmail} `} id="email" aria-describedby='emailFeedback' onChange={handleEmail}  />
+                  <input type="text" className={`form-control ${checkEmail} `} id="email" name='email' aria-describedby='emailFeedback' onChange={handleEmail} />
                   <div id="emailFeedback" className="invalid-feedback">
                     le email doit étre valide.
                   </div>
                 </div>
                 <div className="mb-3">
                   <label htmlFor="sujet" className="form-label">Sujet *</label>
-                  <input type="text" className={`form-control ${checkSujet} `} id="sujet" aria-describedby='sujetFeedback' onChange={handleSujet} />
+                  <input type="text" className={`form-control ${checkSujet} `} id="sujet" name='sujet' aria-describedby='sujetFeedback' onChange={handleSujet} />
                   <div id="sujetFeedback" className="invalid-feedback">
                     le sujet doit étre au moins 3 letters.
                   </div>
                 </div>
                 <div className="mb-3">
                   <label htmlFor="message" className="form-label">Message *</label>
-                  <textarea className={`form-control ${checkMessage} `} id="message" rows="3" aria-describedby='messageFeedback' onChange={handleMessqge}  />
+                  <textarea className={`form-control ${checkMessage} `} id="message" name='message' rows="3" aria-describedby='messageFeedback' onChange={handleMessqge} />
                   <div id="messageFeedback" className="invalid-feedback">
                     le message doit étre au moins 3 letters.
                   </div>
@@ -221,7 +229,7 @@ function Contact() {
                   </li>
                   <li>
                     <strong>
-                      <p><span>Email:</span> nfo.service.maroc@gmail.com</p>
+                      <p><span>Email:</span> nfo.services.maroc@gmail.com</p>
                     </strong>
                   </li>
                 </ul>

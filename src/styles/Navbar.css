@@ -5,9 +5,13 @@
   .navbar-brand {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+    justify-items: center;
   }
   .navbar-brand img{
     padding: 8px;
+  }
+  .navbar-brand span{
+    color: #1C86D5;
   }
   .nav-link {
     color: var(--main-color) !important;
